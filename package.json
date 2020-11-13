@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok0749/community.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok0749/community/issues"
+  },
+  "homepage": "https://github.com/ok0749/community#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "ejs": "^3.1.5",
+    "ejs-blocks": "^0.1.4",
+    "express": "^4.17.1",
+    "express-ejs-extend": "0.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
