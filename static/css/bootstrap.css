@@ -7,6 +7,62 @@
 /* ! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /* index.html */
+.login-container {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.login-middle {
+
+  border: 1mm solid black;
+  }
+.top {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 10px;
+  height: 80px;
+  color: white;
+  background-color: blue;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-left: 55px;
+  margin-right: 55px;
+}
+.middle a{
+  border-bottom: 0.05mm solid black;
+  margin-bottom: 8px;
+}
+.bottom{
+  
+  display: flex;
+  flex-direction: column;
+align-items: left;
+margin-left: 55px;
+  margin-right: 55px;
+  color: black;
+}
+
+
+.bottom input{
+  margin-top: 8px;
+  background-color: white;
+  border-color: black;
+  text-align: left;
+}
+.test {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+
 
 .page-header__img {
   display: flex;
@@ -26,7 +82,7 @@
   width: 100%;
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
 
