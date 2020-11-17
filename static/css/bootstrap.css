@@ -10,16 +10,18 @@
 .login-container {
   height: 500px;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 2.5fr 1fr;
 }
 
 .login-middle {
-
   border: 1mm solid black;
-  }
+}
+
+.login-middle__middle {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .top {
-  margin-left: 55px;
-  margin-right: 55px;
   margin-bottom: 10px;
   height: 80px;
   color: white;
@@ -31,26 +33,26 @@
 .middle {
   display: flex;
   flex-direction: column;
-align-items: center;
-margin-left: 55px;
-  margin-right: 55px;
+  align-items: center;
 }
-.middle a{
+.middle a {
   border-bottom: 0.05mm solid black;
   margin-bottom: 8px;
 }
-.bottom{
-  
+
+.middle input {
+  width: 100%;
+}
+
+.bottom {
   display: flex;
   flex-direction: column;
-align-items: left;
-margin-left: 55px;
-  margin-right: 55px;
+  align-items: left;
+
   color: black;
 }
 
-
-.bottom input{
+.bottom input {
   margin-top: 8px;
   background-color: white;
   border-color: black;
@@ -61,8 +63,6 @@ margin-left: 55px;
   height: 50px;
   margin-bottom: 15px;
 }
-
-
 
 .page-header__img {
   display: flex;
