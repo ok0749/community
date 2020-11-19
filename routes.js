@@ -12,6 +12,7 @@ const CHANGE_PASSWORD = "/change-password";
 
 //stories
 const STORIES = "/stories";
+const INFO = "/info";
 const UPLOAD = "/upload";
 const STORY_DETAIL = ":id";
 const EDIT_STORIES = "/:id/edit";
@@ -32,6 +33,7 @@ const routes = {
 
   //stories
   stories: STORIES,
+  info: INFO,
   upload: UPLOAD,
   storyDetail: STORY_DETAIL,
   editStories: EDIT_STORIES,
